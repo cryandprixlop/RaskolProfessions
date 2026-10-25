@@ -1,0 +1,12 @@
+# ===== RaskolProfessions =====
+max-level: 10                  # потолок уровня
+xp-base: 8                     # опыта за переход 1->2
+xp-multiplier: 2               # прогрессия: 8, 16, 32, 64...
+double-chance-per-level: 1.0   # +N% к шансу удвоения за уровень
+
+# Опыт за одно действие
+xp:
+  fishing: 2
+  farming: 2
+  lumber: 1
+  mining: 2
