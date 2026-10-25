@@ -1,0 +1,15 @@
+name: RaskolProfessions
+version: ${project.version}
+main: ru.raskol.professions.RaskolProfessions
+api-version: '1.21'
+author: Baltimor
+description: Professions with levels and double-drop chance.
+softdepend: [RaskolFishing, RaskolFarming, RaskolLumber, RaskolMining]
+commands:
+  prof:
+    description: Profession commands
+    usage: /prof help
+permissions:
+  prof.admin:
+    description: Admin profession commands
+    default: op
